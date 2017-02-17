@@ -1,14 +1,12 @@
 $(document).ready(function() {
+  // $("select").change(function() {
+  //   if($(this).val() === "yes")
+  //
+  // { alert("We suggest the CSS/Design track!");
+  //  }
 
-  $("select").change(function(submit){
-    if($(this).val() === "yes")
-    { alert("We suggest the CSS/Design track!");
-     }
+  $("#formOne").submit(function(event) {
 
-
-    $("#formOne").submit(function(event) {
-
-    });
 
 
 

@@ -1,3 +1,22 @@
 #reveal {
   display: none;
 }
+
+#name {
+  width: 200px;
+}
+
+#design {
+  width: 200px;
+}
+/*body {
+  background-color: #8A9197;
+}*/
+.btn {
+  background-color: #9959f9;
+  color: white;
+}
+.jumbotron {
+  background-color: #00B3B4;
+  color: white;
+}
