@@ -12,6 +12,9 @@
 /*body {
   background-color: #8A9197;
 }*/
+#start {
+  width: 200px;
+}
 .btn {
   background-color: #9959f9;
   color: white;
@@ -22,6 +25,7 @@
 }
 
 .container {
+  padding: 2%;
   margin: auto;
   border: dotted;
   border-color: gray;
@@ -40,7 +44,6 @@ p {
 h4 {
   font-family: Lucida;
   font-style: italic;
-  font-weight: bolder;
-  font-size: 40px;
+  font-size: 35px;
   color: #37383a;
 }
