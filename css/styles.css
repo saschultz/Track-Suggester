@@ -1,6 +1,10 @@
+#open {
+  display: none;
+}
 #reveal {
   display: none;
 }
+
 
 #name {
   width: 200px;
