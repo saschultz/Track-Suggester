@@ -20,3 +20,20 @@
   background-color: #00B3B4;
   color: white;
 }
+
+.container {
+  margin: auto;
+  border: dotted;
+  border-color: gray;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
