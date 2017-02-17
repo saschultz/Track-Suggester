@@ -29,21 +29,35 @@
           </div>
 
           <div class="form-group">
-              <label for="fancy">Which strikes your fancy more?</label>
-              <select class="form-control" id="design">
-                <option>Technical Writing</option>
-                <option value="yes">Art/Design</option>
-              </select>
-            </div>
+            <label for="fancy">Which strikes your fancy more?</label>
+            <select class="form-control" id="design">
+              <option>Technical Writing</option>
+              <option value="yes">Art/Design</option>
+            </select>
           </div>
 
+          <div class="form-group">
+            <label for="devicebtn">Which platform would most excite you to display on?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="device" value="mobile device" checked>
+                Mobile Device
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="device" value="Computer">
+                Computer
+              </label>
+          </div>
+
+
+
           <br>
-          <div class="container">
           <button type="submit" class="btn" onclick="alert">Reveal Track!</button>
 
           <div id="reveal">
             <h4>Wow <span class="name"></span>, would you look at that!<span class="drop"></span></h4>
-          </div>
       </div>
     </div>
   </body>

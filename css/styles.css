@@ -37,3 +37,10 @@ p {
   padding-left: 5%;
   padding-right: 5%;
 }
+h4 {
+  font-family: Lucida;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 40px;
+  color: #37383a;
+}
