@@ -4,11 +4,45 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Track Suggester</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="jumboTitle">Track Suggester</h1>
+        <h3><em>For Prosepctive Epicodus Students</em></h3>
+      </div>
+      <p>
+        Woo hoo! You've decided to come to Epicodus! This is a great first step
+        in your coding journey. The next question that comes to most Epicodus students
+        is which track should they take? Well, never fear! We created a simple form
+        that you can fill out to receive a suggested track based off of your answers.
+        Have fun!
+      </p>
+      <div class="container">
+        <form id="formOne">
+          <div class="form-group">
+            <label for="name">What is your first name?</label>
+            <input id="name" class="form-control" type="text">
+          </div>
 
-  <script src="js/jquery-3.1.1.js"</script>
-  <script src="js/scripts.js"</script>
+          <div class="form-group">
+              <label for="fancy">Which strikes your fancy more?</label>
+              <select class="form-control" id="fancy">
+                <option>Technical Writing</option>
+                <option>Art/Design</option>
+              </select>
+            </div>
+          </div>
+
+          <br>
+          <button type="submit" class="btn btn-primary">Reveal Track!</button>
+
+          <div id="reveal">
+            <h4>Wow <span class="name"></span>, would you look at that!<span class="drop"></span></h4>
+      </div>
+    </div>
   </body>
 </html>
