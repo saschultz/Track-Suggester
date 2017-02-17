@@ -1,19 +1,12 @@
 $(document).ready(function() {
-  // $("select").change(function() {
-  //   if($(this).val() === "yes")
-  //
-  // { alert("We suggest the CSS/Design track!");
-  //  }
-
   $("#formOne").submit(function(event) {
-
-
-
-
-
+    $("#reveal").fadeIn();
 
     var name = $("input#name").val();
+    var start = $("input#start").val();
     var design = $("input#design").val();
+    var mobile = $("input#mobile").val();
+    var company = $("input#company").val();
     // // var tech = $("input#tech").val();
     //
     $(".name").text(name);

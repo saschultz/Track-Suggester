@@ -21,6 +21,7 @@
         that you can fill out to receive a suggested track based off of your answers.
         Have fun!
       </p>
+      <br>
       <div class="container">
         <form id="formOne">
           <div class="form-group">
@@ -42,8 +43,8 @@
           </div>
           <br>
           <div class="form-group">
-            <label for="devicebtn">Which platform would most excite you to display on?</label>
-            <div class="radio">
+            <label for="devicebtn">Which platform most excites you to display on?</label>
+            <div class="radio" id="mobile">
               <label>
                 <input type="radio" name="device" value="mobile device" checked>
                 Mobile Device
@@ -55,14 +56,33 @@
                 Computer
               </label>
           </div>
+          <br>
+          <div class="form-group">
+            <label for="afterbtn">When all is said and done, where would you see yourself after Epicodus?</label>
+            <div class="radio" id="company">
+              <label>
+                <input type="radio" name="after" value="new" checked>
+                A new, local start up company
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="after" value="old">
+                A large, well established corporation
+              </label>
+            </div>
+          </div>
+
 
 
 
           <br>
           <button type="submit" class="btn" onclick="alert">Reveal Track!</button>
-
+          <br>
+          <br>
           <div id="reveal">
-            <h4>Wow <span class="name"></span>, would you look at that!<span class="drop"></span></h4>
+            <h4>Wow <span class="name"></span>, would you look at that!</span></h4>
+            <h5>Based off this short and sweet survey, we recommend the <span class="track"></span> for you!</h5>
       </div>
     </div>
   </body>
