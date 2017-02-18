@@ -8,8 +8,6 @@ $(document).ready(function() {
       alert("First Check Out: https://www.epicodus.com, then come back to us here!");
     }
 
-
-
   $("#formOne").submit(function(event) {
     $("#reveal").fadeIn();
 
@@ -20,8 +18,7 @@ $(document).ready(function() {
     var mobile = $("input#mobile").val();
     var company = $("input#company").val();
 
-
-    // 
+    //
     // if (design === $function(value("yes")) {
     //   alert("test");
     // }
