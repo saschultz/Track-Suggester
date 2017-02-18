@@ -20,7 +20,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-All known bugs are within the JavaScript. The "if" statements are commented out because when active, the webpage would not open. If statements placed anywhere after the .submit function will cause the webpage to not open or run the first alert. When those are not active, the webpage will open and user can enter info into the form. However, the return after submitting the form is incomplete because the "if" statements are not functioning to input the user's answers and insert the corresponding track.
+All known bugs are believed to be within the JavaScript. The "if" statements are commented out because when active, the webpage would not open. If statements placed anywhere after the .submit function will cause the webpage to not open or run the first alert. When those are not active, the webpage will open and user can enter info into the form. However, the return after submitting the form is incomplete because the "if" statements are not functioning to input the user's answers and insert the corresponding track.
 
 ## Support and contact details
 
