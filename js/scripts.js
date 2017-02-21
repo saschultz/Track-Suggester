@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  debugger;
+  // debugger;
   var student = prompt("Are you a prospective Epicodus student? (Yes/No)")
     if (student === "yes") {
       $("#open").show();
@@ -9,19 +9,16 @@ $(document).ready(function() {
     }
 
   $("#formOne").submit(function(event) {
-    $("#reveal").fadeIn();
+
 
     var name = $("input#name").val();
     var start = $("input#start").val();
-    var design = $("input#design").val();
-    var reveal = $("#reveal").val();
-    var mobile = $("input#mobile").val();
-    var company = $("input#company").val();
+    var design = $("#design").val();
+    var mobile = $("input:radio[name=device]:checked").val();
+    var company = $("input:radio[name=after]:checked").val();
+    // var reveal = $("#reveal").val();
 
-    //
-    // if (design === $function(value("yes")) {
-    //   alert("test");
-    // }
+
   // if (design === .val("yes")) {
   //     $(".track").show("CSS/Design");
   // } // } else if (mobile === .val("mobile device")) {
@@ -31,7 +28,7 @@ $(document).ready(function() {
       // } else {
       //   alert("TEST");
       // }
-
+    $("#reveal").fadeIn();
     $(".name").text(name);
     $(".track").text();
     $("#reveal").show();
