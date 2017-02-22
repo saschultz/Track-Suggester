@@ -1,6 +1,3 @@
-/*#open {
-  display: none;
-}*/
 #reveal {
   display: none;
 }
@@ -13,9 +10,7 @@
 #design {
   width: 200px;
 }
-/*body {
-  background-color: #8A9197;
-}*/
+
 #start {
   width: 200px;
 }
@@ -47,7 +42,6 @@ p {
 }
 h4 {
   font-family: Lucida;
-  /*font-style: italic;*/
   font-size: 35px;
   color: #37383a;
 }
