@@ -1,8 +1,6 @@
 $(document).ready(function() {
   $("#formOne").submit(function() {
       event.preventDefault();
-
-
     var name = $("input#name").val();
     var start = $("input#start").val();
     var fancy = $("input:radio[name=fancy]:checked").val();
@@ -19,9 +17,9 @@ $(document).ready(function() {
       else {
         $(".track").text("PHP/Drupal");
       }
+
     $("#reveal").fadeIn();
     $(".name").text(name);
     $("#reveal").show();
-
   });
 });
