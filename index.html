@@ -1,89 +1,91 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-3.1.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Track Suggester</title>
-  </head>
-  <body>
-    <div id="open">
-      <div class="container-one">
-        <div class="jumbotron">
-          <h1 class="jumboTitle">Track Suggester</h1>
-          <h3><em>For Prosepctive Epicodus Students</em></h3>
+<head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Track Suggester</title>
+</head>
+<body>
+  <!-- <div id="open"> -->
+  <div class="container-one">
+    <div class="jumbotron">
+      <h1 class="jumboTitle">Track Suggester</h1>
+      <h3><em>For Prosepctive Epicodus Students</em></h3>
+    </div>
+    <p>
+      Woo hoo! You've decided to come to Epicodus! This is a great first step
+      in your coding journey. The next question that comes to most Epicodus students
+      is which track should they take? Well, never fear! We created a simple form
+      that you can fill out to receive a suggested track based off of your answers.
+      Have fun!
+    </p>
+    <br>
+    <div class="container">
+      <form id="formOne">
+        <div class="form-group">
+          <label for="name">What's your first name?</label>
+          <input id="name" class="form-control" type="text">
         </div>
-      <p>
-        Woo hoo! You've decided to come to Epicodus! This is a great first step
-        in your coding journey. The next question that comes to most Epicodus students
-        is which track should they take? Well, never fear! We created a simple form
-        that you can fill out to receive a suggested track based off of your answers.
-        Have fun!
-      </p>
-      <br>
-      <div class="container">
-        <form id="formOne">
-          <div class="form-group">
-            <label for="name">What's your first name?</label>
-            <input id="name" class="form-control" type="text">
-          </div>
-          <br>
-          <div class="form-group">
-            <label for="start">How soon can you start learning to code?</label>
-            <input id="start" class="form-control" type="date">
-          </div>
-          <br>
-          <div class="form-group">
-            <label for="fancy">Which strikes your fancy more?</label>
-            <select class="form-control" id="design">
-              <option>Technical Writing</option>
-              <option>Art/Design</option>
-            </select>
-          </div>
-          <br>
-          <div class="form-group">
-            <label for="devicebtn">Which platform most excites you to display on?</label>
-            <div class="radio" id="mobile">
-              <label>
-                <input type="radio" name="device" value="mobile device" checked>
-                Mobile Device
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="device" value="Computer">
-                Computer
-              </label>
-          </div>
-          <br>
-          <div class="form-group">
-            <label for="afterbtn">When all is said and done, where would you see
-              yourself after Epicodus?</label>
-            <div class="radio" id="company">
-              <label>
-                <input type="radio" name="after" value="new" checked>
-                A new, local start up company
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="after" value="old">
-                A large, well established corporation
-              </label>
-            </div>
-          </div>
-          <br>
-          <button type="submit" class="btn" onclick="alert">Reveal Track!</button>
-          <br>
-          <br>
-          <div id="reveal">
-            <h4>Wow <span class="name"></span>, would you look at that!</span></h4>
-            <h5>Based off this short and sweet survey, we recommend the <span class="track"></span> track for you!</h5>
-          </div>
+        <br>
+        <div class="form-group">
+          <label for="start">How soon can you start learning to code?</label>
+          <input id="start" class="form-control" type="date">
+        </div>
+        <br>
+        <label for="designbtn">Which strikes your fancy more?</label>
+        <div class="radio" id="fancy">
+          <label>
+            <input type="radio" name="fancy" value="technical-writing" checked>
+              Technical Writing
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="fancy" value="design">
+            Design
+          </label>
+        </div>
+        <br>
+        <label for="devicebtn">Which platform most excites you to display on?</label>
+        <div class="radio" id="device">
+          <label>
+            <input type="radio" name="device" value="mobile device" checked>
+            Mobile Device
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="device" value="Computer">
+            Computer
+          </label>
+        </div>
+        <br>
+        <label for="afterbtn">When all is said and done, where would you see yourself after Epicodus?</label>
+        <div class="radio" id="company">
+          <label>
+            <input type="radio" name="after" value="new" checked>
+            A new, local start up company
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="after" value="old">
+            A large, well established corporation
+          </label>
+        </div>
+        <br>
+        <button type="submit" class="btn" onclick="alert">Reveal Track!</button>
+        <br>
+        <br>
+        <div id="reveal">
+          <h4>Wow <span class="name"></span>, would you look at that!</span></h4>
+          <h5>Based off this short and sweet survey, we recommend the <span id="track"></span> track for you!</h5>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
